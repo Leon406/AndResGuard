@@ -52,7 +52,7 @@ maven {
 
 2. 7zip无法运行
 
-   配置本地7zip文件路径
+   配置本地[7zip](https://7-zip.org/)文件路径
 
    ```
    sevenzip {
@@ -60,5 +60,32 @@ maven {
        }
    ```
 
-   
+3. 避免字体资源混淆 （API 级别 26引入字体资源）
 
+   ```
+   andResGuard {
+   	whiteList = [
+   	"R.font.*
+   	]
+   }
+   ```
+
+4. ConstraintLayout布局约束失效
+
+   constraint_referenced_ids不能混淆,请用通配符加入白名单,如constraint_xxx
+
+   ```
+   andResGuard {
+   	whiteList = [
+   	"R.id.constraint*
+   	]
+   }
+   ```
+
+5. 已测试AGP版本
+
+   - 7.0.4
+   - [7.1.1](https://www.jianshu.com/p/60df0c03bbf3) 有兼容问题
+   - 7.3.1
+
+   
