@@ -7,7 +7,7 @@ group rootProject.ext.GROUP
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
   implementation 'com.android.tools.build:gradle:4.1.2'
-  implementation 'commons-io:commons-io:2.6'
+  implementation 'commons-io:commons-io:2.7'
 }
 
 sourceSets {

@@ -6,6 +6,10 @@
 
 ## Changes
 
+#### 1.2.23
+
+兼容AGP 7.4.x
+
 #### 1.2.22.6
 
 1. only support gradle 7.0+
@@ -24,9 +28,9 @@
 com.tencent.mm --> io.github.leon406
 
 ### change version:
-- **stable(mavenCentral):** 1.2.21 --> 1.2.22.6
+- **stable(mavenCentral):** 1.2.21 --> 1.2.23
 
-- **snapshot:** 1.2.21 -->1.2.23.1-SNAPSHOT
+- **snapshot:** 1.2.21 --> 1.2.22.6-SNAPSHOT
 
   ​	add snapshots repo to your build.gradle
 
@@ -87,5 +91,6 @@ maven {
    - 7.0.4
    - [7.1.1](https://www.jianshu.com/p/60df0c03bbf3) 有兼容问题
    - 7.3.1
+   - 7.4.1  (1.2.23+ 支持)
 
    
