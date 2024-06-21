@@ -93,6 +93,6 @@ maven {
    - [7.1.1](https://www.jianshu.com/p/60df0c03bbf3) 有兼容问题
    - 7.3.1
    - 7.4.1  (1.2.23+ 支持)
-   - 8.x 不支持 (jdk版本升级17,功能无法正常使用, 建议使用低版本jdk +命令行进行混淆)
+   - 8.x 不支持 (jdk版本升级17,功能无法正常使用, 建议使用低版本jdk +命令行进行混淆), 可以使用[lalakii的版本](https://github.com/lalakii/AndResGuard))  
 
    
